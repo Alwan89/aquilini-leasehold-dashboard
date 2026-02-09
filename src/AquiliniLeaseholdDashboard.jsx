@@ -68,6 +68,18 @@ const PlatformLogo = ({ platformId, size = 20, className = '' }) => {
 };
 
 // =============================================================================
+// PERIPHERY DIGITAL LOGO COMPONENT
+// =============================================================================
+const PeripheryLogo = ({ size = 32, color = 'white' }) => (
+  <svg viewBox="0 0 100 120" width={size} height={size * 1.2} fill={color} xmlns="http://www.w3.org/2000/svg">
+    {/* P letterform — distinctive Periphery Digital mark with bottom-left dot */}
+    <path d="M20 10 L20 95 L38 95 L38 62 L52 62 C72 62 85 50 85 36 C85 22 72 10 52 10 Z M38 26 L52 26 C62 26 68 30 68 36 C68 42 62 46 52 46 L38 46 Z" />
+    {/* Characteristic dot at bottom-left */}
+    <circle cx="20" cy="110" r="10" />
+  </svg>
+);
+
+// =============================================================================
 // CAMPAIGN DATA — Aquilini Leasehold Education Campaign
 // =============================================================================
 const campaignData = {
@@ -659,9 +671,9 @@ const campaignData = {
         id: 'reel1',
         embedUrl: 'https://www.instagram.com/reel/DKgQWT-x88w/embed/',
         url: 'https://www.instagram.com/reels/DKgQWT-x88w/',
-        project: 'Kwasen (Tsawwassen)',
+        project: 'Boardwalk (Tsawwassen)',
         hook: '291 days of sunshine a year',
-        description: 'On-location at Tsawwassen — lifestyle positioning, community storytelling, price-point accessibility',
+        description: 'On-location at Boardwalk, Tsawwassen — lifestyle positioning, community storytelling, price-point accessibility',
         phase: 'Phase 1',
         type: 'Education via Authority'
       },
@@ -669,9 +681,9 @@ const campaignData = {
         id: 'reel2',
         embedUrl: 'https://www.instagram.com/reel/DKQW5BASrsJ/embed/',
         url: 'https://www.instagram.com/reels/DKQW5BASrsJ/',
-        project: 'Boardwalk',
+        project: 'Boardwalk (Tsawwassen)',
         hook: 'Leasehold property is one of the...',
-        description: 'On-location at Boardwalk — explaining leasehold value, validating the ownership model',
+        description: 'On-location at Boardwalk, Tsawwassen — explaining leasehold value, validating the ownership model',
         phase: 'Phase 1',
         type: 'Education via Authority'
       }
@@ -1029,17 +1041,11 @@ const BudgetSplitBar = ({ scenario }) => {
         <div
           className="split-segment education-segment"
           style={{ width: `${education.percent}%` }}
-        >
-          <span className="split-label">{education.label}</span>
-          <span className="split-amount">{formatCurrency(education.amount)} ({education.percent}%)</span>
-        </div>
+        />
         <div
           className="split-segment remarketing-segment"
           style={{ width: `${remarketing.percent}%` }}
-        >
-          <span className="split-label">{remarketing.label}</span>
-          <span className="split-amount">{formatCurrency(remarketing.amount)}</span>
-        </div>
+        />
       </div>
       <div className="budget-split-legend">
         <div className="split-legend-item">
@@ -1963,7 +1969,7 @@ export default function AquiliniLeaseholdDashboard() {
         /* Header */
         .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--s-7); padding-bottom: var(--s-6); border-bottom: 1px solid rgba(30,30,42,0.08); }
         .header-left { display: flex; align-items: center; gap: var(--s-5); }
-        .brand-logo { width: 52px; height: 52px; background: linear-gradient(135deg, var(--c-primary), var(--c-primary-light)); border-radius: var(--r-md); display: flex; align-items: center; justify-content: center; color: var(--c-bg); font-family: var(--font-display); font-weight: 700; font-size: 22px; box-shadow: 0 4px 12px rgba(30,30,42,0.15); }
+        .brand-logo { width: 52px; height: 52px; background: #E8722A; border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(232,114,42,0.25); }
         .header-text h1 { font-family: var(--font-display); font-size: 28px; font-weight: 600; color: var(--c-text); letter-spacing: -0.3px; }
         .header-meta { display: flex; gap: var(--s-4); font-size: 13px; color: var(--c-text-secondary); margin-top: var(--s-1); }
         .header-meta span { display: flex; align-items: center; gap: 5px; }
@@ -2010,17 +2016,15 @@ export default function AquiliniLeaseholdDashboard() {
         .main-grid.full-width { grid-template-columns: 1fr; }
         .main-content { display: flex; flex-direction: column; gap: 24px; }
 
-        /* Cards — editorial open sections */
-        .card { background: transparent; border-radius: 0; padding: var(--s-8) 0; border-bottom: 1px solid var(--c-border); box-shadow: none; transition: none; }
-        .card:last-child { border-bottom: none; }
+        /* Cards — subtle contained sections */
+        .card { background: var(--c-surface); border-radius: var(--r-sm); padding: var(--s-6); border: 1px solid var(--c-border-light); box-shadow: none; transition: none; margin-bottom: var(--s-5); }
         .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--s-7); }
         .card-title { font-family: var(--font-display); font-size: 26px; font-weight: 600; color: var(--c-text); letter-spacing: -0.5px; }
         .card-subtitle { font-size: 13px; color: var(--c-text-secondary); margin-top: var(--s-1); line-height: 1.55; }
 
         /* Sidebar — open sections */
         .sidebar { display: flex; flex-direction: column; gap: var(--s-5); }
-        .sidebar-card { background: transparent; border-radius: 0; padding: var(--s-5) 0; border-bottom: 1px solid var(--c-border); box-shadow: none; }
-        .sidebar-card:last-child { border-bottom: none; }
+        .sidebar-card { background: var(--c-surface); border-radius: var(--r-sm); padding: var(--s-4) var(--s-5); border: 1px solid var(--c-border-light); box-shadow: none; margin-bottom: var(--s-3); }
         .sidebar-title { font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--c-text); margin-bottom: var(--s-4); }
 
         /* Budget Donut */
@@ -2189,9 +2193,9 @@ export default function AquiliniLeaseholdDashboard() {
         .cg-audience-tab { display: flex; align-items: center; gap: 6px; padding: 10px 16px 8px; border: none; border-bottom: 2px solid transparent; background: transparent; border-radius: 0; font-size: 12px; font-weight: 500; color: var(--c-text-secondary, #7A7A85); cursor: pointer; transition: all var(--t-normal, 250ms) var(--ease-out, ease); font-family: var(--font-body, 'DM Sans', sans-serif); }
         .cg-audience-tab:hover { color: var(--c-primary, #1E1E2A); border-bottom-color: var(--c-border); }
         .cg-audience-tab.active { border-bottom-color: var(--tab-color, var(--c-gold)); color: var(--c-primary, #1E1E2A); font-weight: 600; }
-        .cg-preview-container { border-radius: var(--r-lg, 18px); overflow: hidden; margin-bottom: 20px; background: #0A0A0A; border: 1px solid var(--c-border, #ECEAE6); }
+        .cg-preview-container { border-radius: var(--r-sm); overflow: hidden; margin-bottom: 20px; background: #F5F3EF; border: 1px solid var(--c-border, #ECEAE6); min-height: 200px; }
         .cg-preview-image { width: 100%; }
-        .cg-preview-image img { width: 100%; height: auto; display: block; }
+        .cg-preview-image img { width: 100%; height: auto; display: block; object-fit: contain; }
         .cg-copy-row { display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: center; margin-bottom: 20px; padding: 16px 20px; background: var(--c-bg-warm, #F5F3EF); border-radius: 12px; }
         .cg-copy-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--c-text-secondary, #7A7A85); display: block; margin-bottom: 4px; }
         .cg-copy-value { font-family: var(--font-display, 'Cormorant Garamond', serif); font-size: 18px; font-weight: 600; font-style: italic; color: var(--c-primary, #1E1E2A); line-height: 1.3; }
@@ -2492,7 +2496,7 @@ export default function AquiliniLeaseholdDashboard() {
         .dashboard-footer { margin-top: var(--s-12); padding: var(--s-6) 0; border-top: 1px solid var(--c-border); display: flex; justify-content: space-between; align-items: center; position: relative; }
         .dashboard-footer::before { content: ''; position: absolute; top: -1px; left: 0; width: 60px; height: 2px; background: linear-gradient(90deg, var(--c-gold), transparent); animation: goldLineGrow 0.6s var(--ease-out) both; animation-delay: 0.3s; transform-origin: left; }
         .footer-brand { display: flex; align-items: center; gap: var(--s-3); }
-        .footer-logo { width: 28px; height: 28px; background: linear-gradient(135deg, var(--c-primary), var(--c-primary-light)); border-radius: 7px; display: flex; align-items: center; justify-content: center; color: var(--c-bg); font-family: var(--font-display); font-weight: 700; font-size: 13px; }
+        .footer-logo { width: 28px; height: 28px; background: #E8722A; border-radius: 6px; display: flex; align-items: center; justify-content: center; }
         .footer-agency { font-family: var(--font-body); font-size: 11px; font-weight: 600; letter-spacing: 1.8px; color: var(--c-text-secondary); text-transform: uppercase; }
         .footer-meta { display: flex; gap: var(--s-3); font-size: 11px; color: var(--c-text-secondary); letter-spacing: 0.3px; }
 
@@ -2634,13 +2638,35 @@ export default function AquiliniLeaseholdDashboard() {
           .scenario-strip-item.active { transform: none; }
           .hero-card::after, .cta-card::before { display: none; }
         }
+
+        /* === Readability Pass === */
+        .dashboard { font-size: 15px; }
+        .card-subtitle, .pillar-desc, .rs-risk-detail, .rs-solution-detail,
+        .edu-content-desc, .campaign-format, .disclaimer-content p,
+        .cpa-methodology-content p, .pillar-tactics li, .cpa-combined-detail p,
+        .rs-goal, .cg-slide-desc, .tpv-note-item, .is-reel-desc,
+        .detail-panel-body .detail-text, .assumptions-section li { font-size: 14px; line-height: 1.6; }
+
+        .scm-label, .donut-label, .phase-dates, .audience-label,
+        .pillar-detail-label, .cpa-source-tag, .cpa-size-label,
+        .edu-content-phase, .tpv-badge, .metric-label, .key-metric-label,
+        .efh-subtitle, .detail-label, .pillar-badge, .efh-name,
+        .pillar-phase, .is-reel-phase { font-size: 11px; }
+
+        .scenario-rec-badge, .sct-rec, .is-reel-project-badge { font-size: 10px; }
+
+        .nav-tab { font-size: 14px; }
+        .cta-body { font-size: 15px; line-height: 1.7; }
+        .problem-card p { line-height: 1.7; }
       `}</style>
 
       {/* Header */}
       <header className="header">
         <div className="header-left">
           <div className="brand-lockup">
-            <div className="brand-logo">P</div>
+            <div className="brand-logo">
+              <PeripheryLogo size={28} color="white" />
+            </div>
             <span className="brand-wordmark">PERIPHERY DIGITAL</span>
           </div>
           <div className="header-text">
@@ -2981,7 +3007,9 @@ export default function AquiliniLeaseholdDashboard() {
       {/* Footer */}
       <footer className="dashboard-footer">
         <div className="footer-brand">
-          <div className="footer-logo">P</div>
+          <div className="footer-logo">
+            <PeripheryLogo size={16} color="white" />
+          </div>
           <span className="footer-agency">PERIPHERY DIGITAL</span>
         </div>
         <div className="footer-meta">
