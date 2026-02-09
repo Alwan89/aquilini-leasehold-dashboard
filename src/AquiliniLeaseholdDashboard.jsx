@@ -10,13 +10,11 @@ const platformConfig = {
   'facebook': { name: 'Facebook', logo: 'https://cdn.simpleicons.org/facebook/1877F2', color: '#1877F2', altText: 'Facebook logo' },
   'instagram': { name: 'Instagram', logo: 'https://cdn.simpleicons.org/instagram/E4405F', color: '#E4405F', altText: 'Instagram logo' },
   'google': { name: 'Google Ads', logo: 'https://cdn.simpleicons.org/googleads/4285F4', color: '#4285F4', altText: 'Google Ads logo' },
-  'linkedin': { name: 'LinkedIn', logo: 'https://cdn.simpleicons.org/linkedin/0A66C2', color: '#0A66C2', altText: 'LinkedIn logo' },
   'spotify': { name: 'Spotify Audio', logo: 'https://cdn.simpleicons.org/spotify/1DB954', color: '#1DB954', altText: 'Spotify logo' },
   'youtube': { name: 'YouTube', logo: 'https://cdn.simpleicons.org/youtube/FF0000', color: '#FF0000', altText: 'YouTube logo' },
   'tiktok': { name: 'TikTok', logo: 'https://cdn.simpleicons.org/tiktok/000000', color: '#000000', altText: 'TikTok logo' },
   'twitter': { name: 'Twitter/X', logo: 'https://cdn.simpleicons.org/x/000000', color: '#000000', altText: 'X logo' },
   'pinterest': { name: 'Pinterest', logo: 'https://cdn.simpleicons.org/pinterest/E60023', color: '#E60023', altText: 'Pinterest logo' },
-  'quantcast': { name: 'Quantcast', logo: 'https://cdn.simpleicons.org/quantcast/000000', color: '#6B5B4F', altText: 'Quantcast logo' },
   'programmatic': { name: 'Programmatic', emoji: '🎯', color: '#6B5B4F' },
   'bellmedia': { name: 'Bell Media', emoji: '📺', color: '#1E1E2A' },
   'ooh': { name: 'Out of Home', emoji: '🚏', color: '#7A7A85' },
@@ -345,9 +343,9 @@ const campaignData = {
       color: "#1877F2",
       pillar: "trust",
       budgetByScenario: {
-        baseline: { total: 12600, monthlyAvg: 1800 },
-        strategic: { total: 22050, monthlyAvg: 3150 },
-        market: { total: 31500, monthlyAvg: 4500 }
+        baseline: { total: 16800, monthlyAvg: 2400 },
+        strategic: { total: 29400, monthlyAvg: 4200 },
+        market: { total: 42000, monthlyAvg: 6000 }
       },
       campaigns: [
         {
@@ -359,8 +357,8 @@ const campaignData = {
           objective: "Awareness",
           startDate: "2026-04-01",
           endDate: "2026-07-15",
-          dailySpendByScenario: { baseline: 40, strategic: 70, market: 100 },
-          totalSpendByScenario: { baseline: 4240, strategic: 7420, market: 10600 },
+          dailySpendByScenario: { baseline: 53, strategic: 93, market: 133 },
+          totalSpendByScenario: { baseline: 5653, strategic: 9893, market: 14133 },
           format: "Educational video and carousel ads explaining leasehold advantages; optimized for Reach and Video Views",
           targeting: "Cold — Locked-Out Buyer persona"
         },
@@ -373,8 +371,8 @@ const campaignData = {
           objective: "Video Views",
           startDate: "2026-04-15",
           endDate: "2026-07-31",
-          dailySpendByScenario: { baseline: 25, strategic: 45, market: 65 },
-          totalSpendByScenario: { baseline: 2675, strategic: 4815, market: 6955 },
+          dailySpendByScenario: { baseline: 33, strategic: 60, market: 87 },
+          totalSpendByScenario: { baseline: 3567, strategic: 6420, market: 9273 },
           format: "Sponsored content from local real estate creators and realtors; ran as Meta partnership/branded content ads",
           targeting: "Lookalike audiences based on creator followers"
         },
@@ -387,8 +385,8 @@ const campaignData = {
           objective: "ThruPlay",
           startDate: "2026-07-15",
           endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 35, strategic: 60, market: 85 },
-          totalSpendByScenario: { baseline: 3780, strategic: 6480, market: 9180 },
+          dailySpendByScenario: { baseline: 47, strategic: 80, market: 113 },
+          totalSpendByScenario: { baseline: 5040, strategic: 8640, market: 12240 },
           format: "\"Never Say Never\" family lifestyle video series; optimized for ThruPlay completions",
           targeting: "Warm — engaged with education content"
         },
@@ -401,8 +399,8 @@ const campaignData = {
           objective: "Landing Page Views",
           startDate: "2026-04-01",
           endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 9, strategic: 16, market: 23 },
-          totalSpendByScenario: { baseline: 1905, strategic: 3335, market: 4765 },
+          dailySpendByScenario: { baseline: 12, strategic: 21, market: 31 },
+          totalSpendByScenario: { baseline: 2540, strategic: 4447, market: 6354 },
           format: "\"Leasehold 101\" educational ads served to past visitors of Kwasen, Boardwalk, The New Village",
           targeting: "CRM + pixel audiences from 3 projects"
         }
@@ -414,9 +412,9 @@ const campaignData = {
       color: "#FF0000",
       pillar: "trust",
       budgetByScenario: {
-        baseline: { total: 10500, monthlyAvg: 1500 },
-        strategic: { total: 18375, monthlyAvg: 2625 },
-        market: { total: 26250, monthlyAvg: 3750 }
+        baseline: { total: 14000, monthlyAvg: 2000 },
+        strategic: { total: 24500, monthlyAvg: 3500 },
+        market: { total: 35000, monthlyAvg: 5000 }
       },
       campaigns: [
         {
@@ -428,8 +426,8 @@ const campaignData = {
           objective: "Video Views",
           startDate: "2026-04-15",
           endDate: "2026-07-15",
-          dailySpendByScenario: { baseline: 35, strategic: 60, market: 85 },
-          totalSpendByScenario: { baseline: 3185, strategic: 5460, market: 7735 },
+          dailySpendByScenario: { baseline: 47, strategic: 80, market: 113 },
+          totalSpendByScenario: { baseline: 4247, strategic: 7280, market: 10313 },
           format: "Sponsored segments within local real estate creator videos; YouTube in-stream pre-roll",
           targeting: "Real estate interest audiences in Metro Vancouver"
         },
@@ -442,8 +440,8 @@ const campaignData = {
           objective: "Video Views",
           startDate: "2026-04-01",
           endDate: "2026-07-31",
-          dailySpendByScenario: { baseline: 30, strategic: 50, market: 75 },
-          totalSpendByScenario: { baseline: 3630, strategic: 6050, market: 9075 },
+          dailySpendByScenario: { baseline: 40, strategic: 67, market: 100 },
+          totalSpendByScenario: { baseline: 4840, strategic: 8067, market: 12100 },
           format: "5-15 minute educational explainer videos covering 99-year terms, financing, and value retention",
           targeting: "In-market for real estate + Vancouver geo"
         },
@@ -456,8 +454,8 @@ const campaignData = {
           objective: "ThruPlay",
           startDate: "2026-07-15",
           endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 25, strategic: 45, market: 60 },
-          totalSpendByScenario: { baseline: 2700, strategic: 4860, market: 6480 },
+          dailySpendByScenario: { baseline: 33, strategic: 60, market: 80 },
+          totalSpendByScenario: { baseline: 3600, strategic: 6480, market: 8640 },
           format: "Emotional family upgrade stories — \"Never Say Never\" branded series; 30-60 second cuts",
           targeting: "Warm — video viewers from Phase 1 + Lookalikes"
         },
@@ -470,8 +468,8 @@ const campaignData = {
           objective: "Landing Page Views",
           startDate: "2026-05-01",
           endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 5, strategic: 11, market: 16 },
-          totalSpendByScenario: { baseline: 985, strategic: 2005, market: 2960 },
+          dailySpendByScenario: { baseline: 7, strategic: 15, market: 21 },
+          totalSpendByScenario: { baseline: 1313, strategic: 2673, market: 3947 },
           format: "Short-form \"Leasehold 101\" bumper ads + TrueView served to cross-project audiences",
           targeting: "Kwasen/Boardwalk/TNV video viewers + site visitors"
         }
@@ -483,9 +481,9 @@ const campaignData = {
       color: "#4285F4",
       pillar: "trust",
       budgetByScenario: {
-        baseline: { total: 8400, monthlyAvg: 1200 },
-        strategic: { total: 14700, monthlyAvg: 2100 },
-        market: { total: 21000, monthlyAvg: 3000 }
+        baseline: { total: 11200, monthlyAvg: 1600 },
+        strategic: { total: 19600, monthlyAvg: 2800 },
+        market: { total: 28000, monthlyAvg: 4000 }
       },
       campaigns: [
         {
@@ -497,8 +495,8 @@ const campaignData = {
           objective: "Traffic",
           startDate: "2026-04-01",
           endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 20, strategic: 35, market: 50 },
-          totalSpendByScenario: { baseline: 4280, strategic: 7490, market: 10700 },
+          dailySpendByScenario: { baseline: 27, strategic: 47, market: 67 },
+          totalSpendByScenario: { baseline: 5707, strategic: 9987, market: 14267 },
           format: "Targeted Search Campaign for 'leasehold Vancouver', 'affordable condo Vancouver', 'Aquilini leasehold' keywords",
           targeting: "In-market real estate + leasehold-related queries"
         },
@@ -511,8 +509,8 @@ const campaignData = {
           objective: "Awareness",
           startDate: "2026-04-01",
           endDate: "2026-07-15",
-          dailySpendByScenario: { baseline: 15, strategic: 25, market: 35 },
-          totalSpendByScenario: { baseline: 1590, strategic: 2650, market: 3710 },
+          dailySpendByScenario: { baseline: 20, strategic: 33, market: 47 },
+          totalSpendByScenario: { baseline: 2120, strategic: 3533, market: 4947 },
           format: "Educational display ads on real estate content sites (REW, Realtor.ca, Livabl, etc.)",
           targeting: "Contextual — real estate content sites in Vancouver"
         },
@@ -525,8 +523,8 @@ const campaignData = {
           objective: "Lead Generation",
           startDate: "2026-07-15",
           endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 12, strategic: 21, market: 30 },
-          totalSpendByScenario: { baseline: 1296, strategic: 2268, market: 3240 },
+          dailySpendByScenario: { baseline: 16, strategic: 28, market: 40 },
+          totalSpendByScenario: { baseline: 1728, strategic: 3024, market: 4320 },
           format: "\"Sorry\" + \"Never Say Never\" creative through Google Demand Gen, YouTube and Gmail placements",
           targeting: "Warm — site visitors + video viewers"
         },
@@ -539,123 +537,13 @@ const campaignData = {
           objective: "Landing Page Views",
           startDate: "2026-04-15",
           endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 6, strategic: 11, market: 17 },
-          totalSpendByScenario: { baseline: 1234, strategic: 2292, market: 3350 },
+          dailySpendByScenario: { baseline: 8, strategic: 15, market: 23 },
+          totalSpendByScenario: { baseline: 1645, strategic: 3056, market: 4466 },
           format: "\"Leasehold 101\" remarketing banners on Google Display Network",
           targeting: "Cross-project pixel audiences"
         }
       ]
     },
-    {
-      id: "programmatic",
-      name: "Programmatic (Quantcast)",
-      color: "#6B5B4F",
-      pillar: "trust",
-      budgetByScenario: {
-        baseline: { total: 5250, monthlyAvg: 750 },
-        strategic: { total: 9188, monthlyAvg: 1313 },
-        market: { total: 13125, monthlyAvg: 1875 }
-      },
-      campaigns: [
-        {
-          id: "prog-awareness",
-          name: "Quantcast Awareness — Leasehold Education",
-          type: "Programmatic Display",
-          pillar: "trust",
-          phase: "phase1",
-          objective: "Awareness",
-          startDate: "2026-04-01",
-          endDate: "2026-07-15",
-          dailySpendByScenario: { baseline: 16, strategic: 28, market: 40 },
-          totalSpendByScenario: { baseline: 1696, strategic: 2968, market: 4240 },
-          format: "Programmatic display targeting in-market homebuyers with leasehold education creatives",
-          targeting: "Quantcast Audience Planner — real estate intenders, Vancouver DMA"
-        },
-        {
-          id: "prog-emotional",
-          name: "Quantcast — Emotional Conversion Creative",
-          type: "Programmatic Display",
-          pillar: "emotional",
-          phase: "phase2",
-          objective: "Traffic",
-          startDate: "2026-07-15",
-          endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 16, strategic: 28, market: 40 },
-          totalSpendByScenario: { baseline: 1728, strategic: 3024, market: 4320 },
-          format: "\"Never Say Never\" and \"Sorry\" creative display ads across premium publisher inventory",
-          targeting: "Warm audiences + Quantcast lookalikes"
-        },
-        {
-          id: "prog-remarketing",
-          name: "Quantcast Cross-Project Retargeting",
-          type: "Remarketing",
-          pillar: "crossproject",
-          phase: "both",
-          objective: "Landing Page Views",
-          startDate: "2026-05-01",
-          endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 10, strategic: 18, market: 25 },
-          totalSpendByScenario: { baseline: 1826, strategic: 3196, market: 4565 },
-          format: "Retargeting Kwasen/Boardwalk/TNV audiences with \"Leasehold 101\" educational content",
-          targeting: "Cross-project pixel pools — de-duplicated"
-        }
-      ]
-    },
-    {
-      id: "linkedin",
-      name: "LinkedIn",
-      color: "#0A66C2",
-      pillar: "trust",
-      budgetByScenario: {
-        baseline: { total: 5250, monthlyAvg: 750 },
-        strategic: { total: 9187, monthlyAvg: 1312 },
-        market: { total: 13125, monthlyAvg: 1875 }
-      },
-      campaigns: [
-        {
-          id: "li-thought-leadership",
-          name: "LinkedIn Thought Leadership — Leasehold Insights",
-          type: "Sponsored Content",
-          pillar: "trust",
-          phase: "phase1",
-          objective: "Awareness",
-          startDate: "2026-04-15",
-          endDate: "2026-07-31",
-          dailySpendByScenario: { baseline: 16, strategic: 28, market: 40 },
-          totalSpendByScenario: { baseline: 1712, strategic: 2996, market: 4280 },
-          format: "Sponsored articles and video posts from Aquilini leadership explaining leasehold value proposition to professional audience",
-          targeting: "Vancouver professionals, real estate industry, HHI $100K+"
-        },
-        {
-          id: "li-nsn-video",
-          name: "LinkedIn Video — Never Say Never",
-          type: "Video",
-          pillar: "emotional",
-          phase: "phase2",
-          objective: "Video Views",
-          startDate: "2026-07-15",
-          endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 16, strategic: 28, market: 40 },
-          totalSpendByScenario: { baseline: 1728, strategic: 3024, market: 4320 },
-          format: "\"Never Say Never\" video ads targeting professional families considering home upgrades",
-          targeting: "Warm — previous LinkedIn engagers + CRM match"
-        },
-        {
-          id: "li-remarketing",
-          name: "LinkedIn Lead Nurturing",
-          type: "Remarketing",
-          pillar: "crossproject",
-          phase: "both",
-          objective: "Landing Page Views",
-          startDate: "2026-05-01",
-          endDate: "2026-10-31",
-          dailySpendByScenario: { baseline: 10, strategic: 17, market: 25 },
-          totalSpendByScenario: { baseline: 1810, strategic: 3167, market: 4525 },
-          format: "\"Leasehold 101\" content nurturing to matched CRM audiences on LinkedIn",
-          targeting: "CRM email match + website visitor retargeting"
-        }
-      ]
-    }
   ],
 
   educationContent: {
@@ -680,7 +568,7 @@ const campaignData = {
         description: 'Expert/realtor educational videos covering 99-year terms, financing, and value retention',
         percentOfEducation: 30,
         phase: 'Phase 1',
-        examples: ['YouTube explainer series', 'Google Demand Gen video', 'LinkedIn thought leadership video']
+        examples: ['YouTube explainer series', 'Google Demand Gen video', 'Meta educational video ads']
       },
       {
         id: 'owned',
@@ -710,7 +598,7 @@ const campaignData = {
       "Vancouver real estate market digital benchmarks",
       "Meta Ads industry benchmarks (Real Estate vertical)",
       "Google Ads Keyword Planner estimates for leasehold-related terms",
-      "Quantcast Audience Planner — Metro Vancouver DMA"
+      "Google Ads Audience Insights — Metro Vancouver DMA"
     ]
   },
 
@@ -1020,8 +908,8 @@ const EducationFunnel = ({ scenario, stages }) => {
               </div>
             )}
             <div className="efh-node" style={{ borderTopColor: stage.color }}>
-              <div className="efh-icon" style={{ backgroundColor: `${stage.color}15`, color: stage.color }}>
-                <Icon size={20} />
+              <div className="efh-icon" style={{ color: stage.color }}>
+                <Icon size={18} />
               </div>
               <div className="efh-value" style={{ color: stage.color }}>{stage.label}</div>
               <div className="efh-name">{stage.name}</div>
@@ -1052,11 +940,11 @@ const StrategicPillars = ({ pillars }) => {
           <div
             key={pillar.id}
             className={`pillar-card ${isExpanded ? 'expanded' : ''}`}
-            style={{ borderLeftColor: pillar.color }}
+            style={{ '--pillar-color': pillar.color }}
             onClick={() => setExpandedPillar(isExpanded ? null : pillar.id)}
           >
             <div className="pillar-header">
-              <div className="pillar-icon" style={{ backgroundColor: `${pillar.color}15`, color: pillar.color }}>
+              <div className="pillar-icon" style={{ color: pillar.color }}>
                 <Icon size={20} />
               </div>
               <div className="pillar-title">
@@ -1113,9 +1001,6 @@ const RiskSolutionMatrix = ({ riskSolutions }) => {
             <h4 className="rs-risk-title">{item.risk}</h4>
             <p className="rs-risk-detail">{item.riskDetail}</p>
           </div>
-          <div className="rs-arrow">
-            <ArrowRight size={18} />
-          </div>
           <div className="rs-solution">
             <h4 className="rs-solution-title" style={{ color: item.color }}>{item.solution}</h4>
             <p className="rs-solution-detail">{item.solutionDetail}</p>
@@ -1123,9 +1008,9 @@ const RiskSolutionMatrix = ({ riskSolutions }) => {
               <Target size={12} />
               <span>{item.goal}</span>
             </div>
-          </div>
-          <div className="rs-phase-badge" style={{ borderColor: item.color, color: item.color }}>
-            {item.phase}
+            <div className="rs-phase-badge" style={{ color: item.color }}>
+              {item.phase}
+            </div>
           </div>
         </div>
       ))}
@@ -1205,7 +1090,6 @@ const CrossProjectAudience = ({ pools, methodology }) => {
       </div>
 
       <div className="cpa-combined">
-        <ArrowDown size={20} className="cpa-arrow" />
         <div className="cpa-combined-card">
           <div className="cpa-combined-header">
             <RefreshCw size={20} />
@@ -1244,7 +1128,7 @@ const EducationContentBreakdown = ({ categories, scenario }) => {
     <div className="edu-content-breakdown">
       {hasValidation && (
         <div className="third-party-header">
-          <div className="tpv-icon"><UserCheck size={18} /></div>
+          <UserCheck size={18} className="tpv-icon" />
           <div>
             <h4 className="tpv-title">Third-Party Validation: Removing Developer Bias</h4>
             <p className="tpv-subtitle">Neutral creators and experts validate leasehold — not the developer</p>
@@ -1356,16 +1240,11 @@ const CreativeGallery = ({ creatives }) => {
       {/* Slide Flow */}
       <div className="cg-slide-flow">
         {creatives.slideFlow.map((slide, i) => (
-          <React.Fragment key={i}>
-            <div className="cg-slide-step">
-              <div className="cg-slide-num">Slide {slide.slide}</div>
-              <div className="cg-slide-label">{slide.label}</div>
-              <div className="cg-slide-desc">{slide.description}</div>
-            </div>
-            {i < creatives.slideFlow.length - 1 && (
-              <div className="cg-slide-arrow"><ArrowRight size={14} /></div>
-            )}
-          </React.Fragment>
+          <div key={i} className="cg-slide-step">
+            <div className="cg-slide-num">Slide {slide.slide}</div>
+            <div className="cg-slide-label">{slide.label}</div>
+            <div className="cg-slide-desc">{slide.description}</div>
+          </div>
         ))}
       </div>
     </div>
@@ -1410,7 +1289,7 @@ const InfluencerShowcase = ({ influencerContent }) => {
                 allowTransparency="true"
                 allow="encrypted-media"
                 title={`${creator.name} — ${reel.project}`}
-                style={{ borderRadius: '12px', border: 'none' }}
+                style={{ borderRadius: '2px', border: 'none' }}
               />
             </div>
             <div className="is-reel-meta">
@@ -2036,14 +1915,16 @@ export default function AquiliniLeaseholdDashboard() {
           --s-6: 24px; --s-7: 28px; --s-8: 32px; --s-10: 40px; --s-12: 48px;
           --s-16: 64px; --s-24: 96px;
 
-          /* Shadows */
-          --shadow-subtle: 0 1px 3px rgba(30,30,42,0.04), 0 1px 2px rgba(30,30,42,0.02);
-          --shadow-medium: 0 4px 16px rgba(30,30,42,0.06), 0 1px 3px rgba(30,30,42,0.04);
-          --shadow-elevated: 0 8px 32px rgba(30,30,42,0.08), 0 2px 8px rgba(30,30,42,0.04);
-          --shadow-dramatic: 0 16px 48px rgba(30,30,42,0.12), 0 4px 12px rgba(30,30,42,0.06);
+          /* Shadows — flattened: most elements sit on-surface */
+          --shadow-subtle: none;
+          --shadow-medium: 0 2px 8px rgba(30,30,42,0.04);
+          --shadow-elevated: 0 8px 24px rgba(30,30,42,0.08);
+          --shadow-dramatic: 0 12px 36px rgba(30,30,42,0.12);
 
-          /* Border Radius */
-          --r-sm: 8px; --r-md: 14px; --r-lg: 18px; --r-xl: 24px;
+          /* Border Radius — editorial sharpness */
+          --r-sm: 4px; --r-md: 4px; --r-lg: 2px; --r-xl: 4px;
+          --r-soft: 6px;
+          --r-sharp: 0px;
 
           /* Transitions */
           --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -2090,11 +1971,11 @@ export default function AquiliniLeaseholdDashboard() {
         .header-right { text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
         .header-period { font-size: 12px; color: var(--c-text-secondary); }
         .header-budget { font-family: var(--font-display); font-size: 34px; font-weight: 700; color: var(--c-green); letter-spacing: -0.5px; }
-        .header-objective { font-size: 11px; color: var(--c-green); padding: 6px 14px; background: rgba(61,122,95,0.08); border-radius: 20px; display: inline-block; font-weight: 500; letter-spacing: 0.3px; }
+        .header-objective { font-size: 11px; color: var(--c-green); padding: 0; background: none; border-radius: 0; display: inline-block; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; }
 
         /* Nav */
         .nav-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--s-7); gap: var(--s-4); flex-wrap: wrap; }
-        .nav-tabs { display: flex; gap: 4px; background: var(--c-surface); padding: 5px; border-radius: var(--r-sm); width: fit-content; box-shadow: var(--shadow-subtle); border: 1px solid var(--c-border); backdrop-filter: blur(12px); }
+        .nav-tabs { display: flex; gap: 4px; background: var(--c-surface); padding: 5px; border-radius: var(--r-soft); width: fit-content; box-shadow: none; border: 1px solid var(--c-border); backdrop-filter: blur(12px); }
         .nav-tab { display: flex; align-items: center; gap: 7px; padding: 10px 20px; border: none; background: transparent; font-family: var(--font-body); font-size: 13px; font-weight: 500; color: var(--c-text-secondary); cursor: pointer; border-radius: 6px; transition: all var(--t-normal) var(--ease-out); }
         .nav-tab:hover:not(.active) { background: var(--c-border-light); color: var(--c-text); }
         .nav-tab.active { background: var(--c-primary); color: var(--c-bg); box-shadow: 0 2px 8px rgba(30,30,42,0.2); }
@@ -2111,11 +1992,11 @@ export default function AquiliniLeaseholdDashboard() {
         /* Scenario Toggle Full */
         .scenario-toggle-full { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
         .scenario-card { background: var(--c-surface); border-radius: var(--r-lg); padding: var(--s-6); border: 2px solid var(--c-border); cursor: pointer; transition: all var(--t-normal) var(--ease-out); position: relative; overflow: hidden; }
-        .scenario-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-elevated); }
+        .scenario-card:hover { border-color: var(--c-gold); }
         .scenario-card.active { box-shadow: var(--shadow-dramatic); }
-        .scenario-rec-badge { position: absolute; top: 12px; right: 12px; padding: 4px 10px; border-radius: 12px; font-size: 10px; font-weight: 600; color: white; letter-spacing: 0.3px; }
+        .scenario-rec-badge { position: absolute; top: 12px; right: 12px; padding: 4px 10px; border-radius: 0; font-size: 9px; font-weight: 600; color: white; letter-spacing: 1.2px; text-transform: uppercase; }
         .scenario-card-header { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
-        .scenario-letter { width: 36px; height: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 18px; flex-shrink: 0; }
+        .scenario-letter { width: 36px; height: 36px; border-radius: 2px; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 18px; flex-shrink: 0; }
         .scenario-card-title h4 { font-size: 16px; font-weight: 600; color: #1E1E2A; }
         .scenario-monthly { font-size: 12px; color: #7A7A85; }
         .scenario-card-total { font-family: 'Cormorant Garamond', serif; font-size: 36px; font-weight: 700; margin-bottom: 20px; }
@@ -2129,15 +2010,17 @@ export default function AquiliniLeaseholdDashboard() {
         .main-grid.full-width { grid-template-columns: 1fr; }
         .main-content { display: flex; flex-direction: column; gap: 24px; }
 
-        /* Cards */
-        .card { background: var(--c-surface); border-radius: var(--r-lg); padding: var(--s-6) var(--s-7); box-shadow: var(--shadow-subtle); transition: box-shadow var(--t-normal) var(--ease-out), transform var(--t-normal) var(--ease-out); }
-        .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--s-5); }
-        .card-title { font-family: var(--font-display); font-size: 21px; font-weight: 600; color: var(--c-text); letter-spacing: -0.2px; }
-        .card-subtitle { font-size: 13px; color: var(--c-text-secondary); margin-top: var(--s-1); line-height: 1.5; }
+        /* Cards — editorial open sections */
+        .card { background: transparent; border-radius: 0; padding: var(--s-8) 0; border-bottom: 1px solid var(--c-border); box-shadow: none; transition: none; }
+        .card:last-child { border-bottom: none; }
+        .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--s-7); }
+        .card-title { font-family: var(--font-display); font-size: 26px; font-weight: 600; color: var(--c-text); letter-spacing: -0.5px; }
+        .card-subtitle { font-size: 13px; color: var(--c-text-secondary); margin-top: var(--s-1); line-height: 1.55; }
 
-        /* Sidebar */
+        /* Sidebar — open sections */
         .sidebar { display: flex; flex-direction: column; gap: var(--s-5); }
-        .sidebar-card { background: var(--c-surface); border-radius: var(--r-md); padding: var(--s-5); box-shadow: var(--shadow-subtle); }
+        .sidebar-card { background: transparent; border-radius: 0; padding: var(--s-5) 0; border-bottom: 1px solid var(--c-border); box-shadow: none; }
+        .sidebar-card:last-child { border-bottom: none; }
         .sidebar-title { font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--c-text); margin-bottom: var(--s-4); }
 
         /* Budget Donut */
@@ -2186,15 +2069,16 @@ export default function AquiliniLeaseholdDashboard() {
         .edu-funnel-detail-metrics { display: flex; flex-wrap: wrap; gap: 6px; }
         @keyframes slideDown { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
 
-        /* Pillars */
-        .pillars-grid { display: flex; flex-direction: column; gap: 14px; }
-        .pillar-card { background: white; border-radius: 14px; border: 1px solid #E8E4DE; border-left-width: 4px; padding: 20px; cursor: pointer; transition: all 0.2s; }
-        .pillar-card:hover { border-color: #C9A96E; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
-        .pillar-card.expanded { background: #FDFCFA; }
-        .pillar-header { display: flex; align-items: center; gap: 14px; }
-        .pillar-icon { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-        .pillar-title h4 { font-size: 15px; font-weight: 600; color: #1E1E2A; }
-        .pillar-phase { font-size: 11px; color: #7A7A85; }
+        /* Pillars — editorial sections */
+        .pillars-grid { display: flex; flex-direction: column; gap: 0; }
+        .pillar-card { background: transparent; border-radius: 0; border: none; border-bottom: 1px solid var(--c-border); padding: 28px 0; cursor: pointer; transition: background var(--t-normal); }
+        .pillar-card:last-child { border-bottom: none; }
+        .pillar-card:hover { background: var(--c-bg-warm); }
+        .pillar-card.expanded { background: var(--c-bg-warm); }
+        .pillar-header { display: flex; align-items: center; gap: 10px; }
+        .pillar-icon { width: auto; height: auto; background: none; border-radius: 0; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .pillar-title h4 { font-size: 16px; font-weight: 600; color: #1E1E2A; }
+        .pillar-phase { font-size: 10px; color: #7A7A85; text-transform: uppercase; letter-spacing: 1px; }
         .pillar-toggle { margin-left: auto; color: #7A7A85; }
         .pillar-desc { font-size: 13px; color: #7A7A85; margin-top: 10px; line-height: 1.5; }
         .pillar-detail { margin-top: 16px; padding-top: 16px; border-top: 1px solid #F0EBE4; animation: slideDown 0.3s ease; }
@@ -2206,26 +2090,26 @@ export default function AquiliniLeaseholdDashboard() {
         .pillar-tactics li:before { content: '•'; position: absolute; left: 0; color: #C9A96E; }
         .pillar-content-cats { margin-top: 12px; }
         .content-cat-tags { display: flex; flex-wrap: wrap; gap: 6px; }
-        .content-cat-tag { padding: 4px 10px; border: 1px solid; border-radius: 12px; font-size: 11px; font-weight: 500; }
+        .content-cat-tag { padding: 0; border: none; border-radius: 0; font-size: 11px; font-weight: 500; color: var(--c-text-secondary); }
 
-        /* Risk vs. Solution Matrix */
+        /* Risk vs. Solution Matrix — editorial */
         .risk-solution-grid { display: flex; flex-direction: column; gap: 0; }
-        .rs-column-headers { display: grid; grid-template-columns: 1fr 20px 1fr; gap: 0; padding: 0 0 12px 0; }
-        .rs-col-header { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; }
+        .rs-column-headers { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; padding: 0 0 16px 0; border-bottom: 1px solid var(--c-border); }
+        .rs-col-header { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
         .rs-col-risk { color: var(--c-red, #B85C5C); }
         .rs-col-solution { color: var(--c-green, #3D7A5F); }
-        .rs-row { display: grid; grid-template-columns: 1fr 20px 1fr; gap: 0; align-items: stretch; padding: 20px 0; border-top: 1px solid var(--c-border, #ECEAE6); position: relative; }
-        .rs-row:last-child { padding-bottom: 0; }
-        .rs-risk { background: rgba(184,92,92,0.04); border-radius: 12px; padding: 18px 20px; border-left: 3px solid var(--c-red, #B85C5C); }
-        .rs-risk-title { font-family: var(--font-display, 'Cormorant Garamond', serif); font-size: 18px; font-weight: 600; color: var(--c-red, #B85C5C); margin: 0 0 6px 0; }
+        .rs-row { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; padding: 28px 0; border-bottom: 1px solid var(--c-border); position: relative; }
+        .rs-row:last-child { border-bottom: none; padding-bottom: 0; }
+        .rs-risk { background: transparent; border-radius: 0; padding: 0; border: none; }
+        .rs-risk-title { font-family: var(--font-display, 'Cormorant Garamond', serif); font-size: 20px; font-weight: 600; color: var(--c-red, #B85C5C); margin: 0 0 8px 0; }
         .rs-risk-detail { font-size: 13px; color: var(--c-text-secondary, #7A7A85); line-height: 1.55; margin: 0; }
-        .rs-arrow { display: flex; align-items: center; justify-content: center; color: var(--c-gold, #C9A96E); }
-        .rs-solution { background: rgba(61,122,95,0.04); border-radius: 12px; padding: 18px 20px; border-left: 3px solid var(--rs-color, var(--c-green, #3D7A5F)); }
-        .rs-solution-title { font-family: var(--font-display, 'Cormorant Garamond', serif); font-size: 18px; font-weight: 600; margin: 0 0 6px 0; }
-        .rs-solution-detail { font-size: 13px; color: var(--c-text, #1E1E2A); line-height: 1.55; margin: 0 0 10px 0; }
-        .rs-goal { display: flex; align-items: flex-start; gap: 6px; font-size: 12px; color: var(--c-green, #3D7A5F); font-weight: 500; background: rgba(61,122,95,0.06); padding: 8px 12px; border-radius: 8px; line-height: 1.4; }
+        .rs-arrow { display: none; }
+        .rs-solution { background: transparent; border-radius: 0; padding: 0; border: none; }
+        .rs-solution-title { font-family: var(--font-display, 'Cormorant Garamond', serif); font-size: 20px; font-weight: 600; margin: 0 0 8px 0; }
+        .rs-solution-detail { font-size: 13px; color: var(--c-text, #1E1E2A); line-height: 1.55; margin: 0 0 12px 0; }
+        .rs-goal { display: flex; align-items: flex-start; gap: 6px; font-size: 12px; color: var(--c-green, #3D7A5F); font-weight: 500; background: transparent; padding: 10px 0 0 0; border-radius: 0; border-top: 1px solid var(--c-border-light); line-height: 1.4; }
         .rs-goal svg { flex-shrink: 0; margin-top: 1px; }
-        .rs-phase-badge { position: absolute; top: 20px; right: 0; font-size: 10px; font-weight: 600; padding: 3px 10px; border: 1px solid; border-radius: 12px; background: white; text-transform: uppercase; letter-spacing: 0.4px; }
+        .rs-phase-badge { font-size: 10px; font-weight: 600; padding: 0; border: none; border-radius: 0; background: transparent; text-transform: uppercase; letter-spacing: 1.2px; color: var(--c-text-secondary); position: static; display: block; margin-top: 10px; }
 
         /* Budget Split */
         .budget-split { margin-top: 8px; }
@@ -2244,53 +2128,54 @@ export default function AquiliniLeaseholdDashboard() {
         /* Cross-Project Audience */
         .cross-project-audience { }
         .cpa-pools { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-        .cpa-pool-card { background: white; border-radius: 14px; border: 1px solid #E8E4DE; padding: 20px; }
+        .cpa-pool-card { background: transparent; border-radius: 0; border: none; border-bottom: 1px solid var(--c-border); padding: 20px 0; }
         .cpa-pool-header { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
-        .cpa-pool-icon { width: 36px; height: 36px; background: #F5F3EF; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #7A7A85; flex-shrink: 0; }
+        .cpa-pool-icon { width: auto; height: auto; background: none; border-radius: 0; display: inline-flex; align-items: center; justify-content: center; color: #7A7A85; flex-shrink: 0; }
         .cpa-pool-info h4 { font-size: 14px; font-weight: 600; color: #1E1E2A; }
         .cpa-pool-type { font-size: 11px; color: #7A7A85; }
-        .cpa-pool-status { font-size: 10px; padding: 3px 8px; border-radius: 10px; font-weight: 600; margin-left: auto; }
-        .cpa-pool-status.active { background: rgba(61,122,95,0.1); color: #3D7A5F; }
+        .cpa-pool-status { font-size: 10px; padding: 0; border-radius: 0; font-weight: 600; margin-left: auto; text-transform: uppercase; letter-spacing: 0.8px; }
+        .cpa-pool-status.active { background: none; color: #3D7A5F; }
         .cpa-pool-sources { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 12px; }
-        .cpa-source-tag { font-size: 10px; padding: 3px 8px; background: #F5F3EF; border-radius: 6px; color: #7A7A85; }
+        .cpa-source-tag { font-size: 10px; padding: 0; background: none; border-radius: 0; color: #7A7A85; }
         .cpa-pool-size { }
         .cpa-size-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.3px; color: #7A7A85; display: block; margin-bottom: 2px; }
         .cpa-size-value { font-size: 12px; color: #1E1E2A; font-weight: 500; }
         .cpa-combined { display: flex; flex-direction: column; align-items: center; margin: 20px 0; }
         .cpa-arrow { color: #7A7A85; margin-bottom: 12px; }
-        .cpa-combined-card { background: linear-gradient(135deg, #F0F7F3 0%, #E8F0ED 100%); border: 1px solid #C5DBC9; border-radius: 14px; padding: 20px; width: 100%; }
+        .cpa-combined-card { background: transparent; border: none; border-top: 2px solid var(--c-green); border-radius: 0; padding: 20px 0; width: 100%; }
         .cpa-combined-header { display: flex; align-items: center; gap: 14px; color: #3D7A5F; margin-bottom: 12px; }
         .cpa-combined-header h4 { font-size: 16px; font-weight: 600; color: #1E1E2A; }
         .cpa-combined-header span { font-size: 12px; color: #7A7A85; display: block; }
         .cpa-combined-detail p { font-size: 12px; color: #7A7A85; line-height: 1.5; }
         .cpa-methodology-toggle { display: flex; align-items: center; gap: 6px; font-size: 13px; color: #7A7A85; cursor: pointer; margin-top: 16px; padding: 8px 0; }
         .cpa-methodology-toggle:hover { color: #1E1E2A; }
-        .cpa-methodology-content { background: #FDFCFA; border-radius: 10px; padding: 16px; margin-top: 8px; animation: slideDown 0.3s ease; }
+        .cpa-methodology-content { background: transparent; border-radius: 0; padding: 16px 0 0 0; margin-top: 8px; border-top: 1px solid var(--c-border-light); animation: slideDown 0.3s ease; }
         .cpa-methodology-content p { font-size: 12px; color: #7A7A85; line-height: 1.6; }
 
         /* Education Content Breakdown */
         .edu-content-breakdown { margin-top: 20px; }
         .edu-content-title { font-size: 14px; font-weight: 600; color: #1E1E2A; margin-bottom: 14px; }
         .edu-content-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-        .edu-content-card { background: #FDFCFA; border: 1px solid #E8E4DE; border-radius: 12px; padding: 18px; }
+        .edu-content-card { background: transparent; border: none; border-right: 1px solid var(--c-border); border-radius: 0; padding: 18px 24px 18px 0; }
+        .edu-content-card:last-child { border-right: none; }
         .edu-content-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
         .edu-content-header h5 { font-size: 14px; font-weight: 600; color: #1E1E2A; }
-        .edu-content-phase { font-size: 10px; padding: 3px 8px; background: #F5F3EF; border-radius: 8px; color: #7A7A85; }
+        .edu-content-phase { font-size: 10px; padding: 0; background: none; border-radius: 0; color: #7A7A85; text-transform: uppercase; letter-spacing: 0.8px; }
         .edu-content-desc { font-size: 12px; color: #7A7A85; line-height: 1.4; margin-bottom: 12px; }
         .edu-content-budget { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
         .edu-content-amount { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 700; color: #3D7A5F; }
         .edu-content-pct { font-size: 11px; color: #7A7A85; }
         .edu-content-examples { display: flex; flex-wrap: wrap; gap: 4px; }
-        .edu-example-tag { font-size: 10px; padding: 3px 8px; background: #F5F3EF; border-radius: 6px; color: #7A7A85; }
+        .edu-example-tag { font-size: 10px; padding: 0; background: none; border-radius: 0; color: #7A7A85; }
 
         /* Third-Party Validation */
-        .third-party-header { display: flex; align-items: flex-start; gap: 12px; padding: 16px 20px; background: linear-gradient(135deg, rgba(61,122,95,0.06) 0%, rgba(201,169,110,0.04) 100%); border-radius: 12px; margin-bottom: 20px; border: 1px solid rgba(61,122,95,0.12); }
-        .tpv-icon { width: 36px; height: 36px; background: var(--c-green, #3D7A5F); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0; }
+        .third-party-header { display: flex; align-items: flex-start; gap: 12px; padding: 0 0 20px 0; background: transparent; border-radius: 0; margin-bottom: 20px; border: none; border-top: 2px solid var(--c-green); padding-top: 20px; }
+        .tpv-icon { width: auto; height: auto; background: none; border-radius: 0; display: inline-flex; align-items: center; justify-content: center; color: var(--c-green, #3D7A5F); flex-shrink: 0; }
         .tpv-title { font-family: var(--font-display, 'Cormorant Garamond', serif); font-size: 18px; font-weight: 600; color: var(--c-primary, #1E1E2A); margin: 0 0 4px 0; }
         .tpv-subtitle { font-size: 13px; color: var(--c-text-secondary, #7A7A85); margin: 0; line-height: 1.4; }
-        .tpv-badge { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 600; padding: 3px 10px; background: rgba(61,122,95,0.08); color: var(--c-green, #3D7A5F); border-radius: 10px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.4px; }
-        .tpv-card { border-left: 3px solid var(--c-green, #3D7A5F) !important; }
-        .tpv-notes { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; padding: 10px 12px; background: rgba(61,122,95,0.03); border-radius: 8px; }
+        .tpv-badge { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 600; padding: 0; background: none; color: var(--c-green, #3D7A5F); border-radius: 0; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px; }
+        .tpv-card { border-left: none !important; }
+        .tpv-notes { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; padding: 10px 0 0 0; background: transparent; border-radius: 0; border-top: 1px solid var(--c-border-light); }
         .tpv-note-item { display: flex; align-items: flex-start; gap: 8px; font-size: 12px; color: var(--c-text, #1E1E2A); line-height: 1.4; }
         .tpv-note-item svg { flex-shrink: 0; color: var(--c-green, #3D7A5F); margin-top: 2px; }
 
@@ -2299,11 +2184,11 @@ export default function AquiliniLeaseholdDashboard() {
         .cg-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
         .cg-agency-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--c-text-secondary, #7A7A85); display: block; margin-bottom: 2px; }
         .cg-agency-name { font-size: 14px; font-weight: 600; color: var(--c-primary, #1E1E2A); }
-        .cg-format-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 500; padding: 5px 12px; background: var(--c-bg-warm, #F5F3EF); border-radius: 10px; color: var(--c-text-secondary, #7A7A85); }
+        .cg-format-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 500; padding: 0; background: none; border-radius: 0; color: var(--c-text-secondary, #7A7A85); text-transform: uppercase; letter-spacing: 0.5px; }
         .cg-audience-tabs { display: flex; gap: 8px; margin-bottom: 20px; }
-        .cg-audience-tab { display: flex; align-items: center; gap: 6px; padding: 8px 16px; border: 1.5px solid var(--c-border, #ECEAE6); background: white; border-radius: 10px; font-size: 12px; font-weight: 500; color: var(--c-text-secondary, #7A7A85); cursor: pointer; transition: all var(--t-normal, 250ms) var(--ease-out, ease); font-family: var(--font-body, 'DM Sans', sans-serif); }
-        .cg-audience-tab:hover { border-color: var(--c-gold, #C9A96E); color: var(--c-primary, #1E1E2A); }
-        .cg-audience-tab.active { border-color: var(--tab-color, var(--c-gold)); background: var(--tab-color, var(--c-gold)); color: var(--c-primary, #1E1E2A); font-weight: 600; box-shadow: var(--shadow-subtle); }
+        .cg-audience-tab { display: flex; align-items: center; gap: 6px; padding: 10px 16px 8px; border: none; border-bottom: 2px solid transparent; background: transparent; border-radius: 0; font-size: 12px; font-weight: 500; color: var(--c-text-secondary, #7A7A85); cursor: pointer; transition: all var(--t-normal, 250ms) var(--ease-out, ease); font-family: var(--font-body, 'DM Sans', sans-serif); }
+        .cg-audience-tab:hover { color: var(--c-primary, #1E1E2A); border-bottom-color: var(--c-border); }
+        .cg-audience-tab.active { border-bottom-color: var(--tab-color, var(--c-gold)); color: var(--c-primary, #1E1E2A); font-weight: 600; }
         .cg-preview-container { border-radius: var(--r-lg, 18px); overflow: hidden; margin-bottom: 20px; background: #0A0A0A; border: 1px solid var(--c-border, #ECEAE6); }
         .cg-preview-image { width: 100%; }
         .cg-preview-image img { width: 100%; height: auto; display: block; }
@@ -2312,7 +2197,8 @@ export default function AquiliniLeaseholdDashboard() {
         .cg-copy-value { font-family: var(--font-display, 'Cormorant Garamond', serif); font-size: 18px; font-weight: 600; font-style: italic; color: var(--c-primary, #1E1E2A); line-height: 1.3; }
         .cg-copy-cta { display: inline-block; padding: 8px 20px; border-radius: 8px; font-size: 11px; font-weight: 700; letter-spacing: 0.8px; color: var(--c-primary, #1E1E2A); }
         .cg-slide-flow { display: flex; align-items: stretch; gap: 0; }
-        .cg-slide-step { flex: 1; text-align: center; padding: 14px 10px; background: white; border: 1px solid var(--c-border, #ECEAE6); border-radius: 10px; }
+        .cg-slide-step { flex: 1; text-align: center; padding: 14px 10px; background: transparent; border: none; border-right: 1px solid var(--c-border, #ECEAE6); border-radius: 0; }
+        .cg-slide-step:last-child { border-right: none; }
         .cg-slide-num { font-size: 10px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--c-gold, #C9A96E); font-weight: 700; margin-bottom: 4px; }
         .cg-slide-label { font-size: 13px; font-weight: 600; color: var(--c-primary, #1E1E2A); margin-bottom: 2px; }
         .cg-slide-desc { font-size: 11px; color: var(--c-text-secondary, #7A7A85); line-height: 1.3; }
@@ -2320,36 +2206,36 @@ export default function AquiliniLeaseholdDashboard() {
 
         /* Influencer Showcase */
         .influencer-showcase { }
-        .is-creator-row { display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: linear-gradient(135deg, var(--c-bg-warm, #F5F3EF) 0%, white 100%); border-radius: 14px; margin-bottom: 20px; border: 1px solid var(--c-border, #ECEAE6); }
+        .is-creator-row { display: flex; align-items: center; gap: 16px; padding: 20px 0; background: transparent; border-radius: 0; margin-bottom: 20px; border: none; border-bottom: 1px solid var(--c-border); }
         .is-creator-avatar { width: 48px; height: 48px; border-radius: 50%; background: var(--c-primary, #1E1E2A); color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; flex-shrink: 0; }
         .is-creator-info { flex: 1; }
         .is-creator-name { font-size: 16px; font-weight: 600; color: var(--c-primary, #1E1E2A); margin: 0; }
         .is-creator-alias { font-weight: 400; color: var(--c-text-secondary, #7A7A85); }
         .is-creator-role { font-size: 12px; color: var(--c-text-secondary, #7A7A85); margin: 2px 0 4px 0; }
-        .is-creator-partnership { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 600; padding: 3px 10px; background: rgba(201,169,110,0.12); color: var(--c-gold, #C9A96E); border-radius: 8px; text-transform: uppercase; letter-spacing: 0.4px; }
+        .is-creator-partnership { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 600; padding: 0; background: none; color: var(--c-gold, #C9A96E); border-radius: 0; text-transform: uppercase; letter-spacing: 1px; }
         .is-creator-handle { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; color: var(--c-text-secondary, #7A7A85); text-decoration: none; padding: 6px 14px; border: 1px solid var(--c-border, #ECEAE6); border-radius: 8px; transition: all var(--t-normal, 250ms); }
         .is-creator-handle:hover { border-color: var(--c-gold, #C9A96E); color: var(--c-primary, #1E1E2A); }
         .is-reels-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        .is-reel-card { border: 1px solid var(--c-border, #ECEAE6); border-radius: 16px; overflow: hidden; background: white; transition: box-shadow var(--t-normal, 250ms); }
-        .is-reel-card:hover { box-shadow: var(--shadow-medium); }
+        .is-reel-card { border: 1px solid var(--c-border, #ECEAE6); border-radius: 2px; overflow: hidden; background: white; transition: border-color var(--t-normal, 250ms); }
+        .is-reel-card:hover { border-color: var(--c-gold); }
         .is-reel-embed { background: #FAFAFA; min-height: 200px; }
         .is-reel-embed iframe { display: block; }
         .is-reel-meta { padding: 16px; }
-        .is-reel-project-badge { display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 8px; margin-bottom: 6px; }
+        .is-reel-project-badge { display: inline-block; font-size: 10px; font-weight: 600; padding: 0; border-radius: 0; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.8px; }
         .is-reel-phase { font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--c-text-secondary, #7A7A85); display: block; margin-bottom: 6px; }
         .is-reel-desc { font-size: 12px; color: var(--c-text, #1E1E2A); line-height: 1.5; margin: 0; }
 
-        /* Metric Tags */
-        .metric-tag { padding: 5px 10px; background: #F5F3EF; border-radius: 14px; font-size: 11px; color: #7A7A85; }
+        /* Metric Tags — plain text */
+        .metric-tag { padding: 0; background: none; border-radius: 0; font-size: 11px; color: #7A7A85; }
 
         /* Scenario Comparison Table */
         .scenario-comparison-table { border-radius: 10px; overflow: hidden; border: 1px solid #E8E4DE; }
         .sct-header { display: flex; background: #F9F7F4; border-bottom: 1px solid #E8E4DE; }
         .sct-metric-col { width: 200px; flex-shrink: 0; padding: 14px 16px; font-size: 12px; font-weight: 600; color: #7A7A85; }
         .sct-scenario-col { flex: 1; padding: 12px 16px; text-align: center; border-top: 3px solid transparent; display: flex; flex-direction: column; align-items: center; gap: 4px; }
-        .sct-scenario-letter { width: 24px; height: 24px; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: 700; }
+        .sct-scenario-letter { width: 24px; height: 24px; border-radius: 2px; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: 700; }
         .sct-scenario-name { font-size: 12px; font-weight: 600; color: #1E1E2A; }
-        .sct-rec { font-size: 9px; padding: 2px 6px; background: rgba(61,122,95,0.1); color: #3D7A5F; border-radius: 4px; font-weight: 600; }
+        .sct-rec { font-size: 9px; padding: 0; background: none; color: #3D7A5F; border-radius: 0; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; }
         .sct-body { }
         .sct-row { display: flex; border-bottom: 1px solid #F0EBE4; }
         .sct-row:last-child { border-bottom: none; }
@@ -2359,7 +2245,7 @@ export default function AquiliniLeaseholdDashboard() {
         .sct-row .sct-metric-col { font-size: 12px; color: #7A7A85; font-weight: 500; display: flex; align-items: center; }
         .sct-value-col { flex: 1; padding: 12px 16px; text-align: center; font-size: 13px; font-weight: 600; color: #1E1E2A; display: flex; align-items: center; justify-content: center; }
         .sct-value-col.recommended { background: rgba(61,122,95,0.04); }
-        .sct-row.highlight { border-left: 3px solid var(--c-gold, #C9A96E); }
+        .sct-row.highlight { background: var(--c-gold-light, #FFFBF5); }
         .sct-row.highlight .sct-metric-col { color: var(--c-primary, #1E1E2A); font-weight: 600; }
         .sct-row.highlight .sct-value-col { font-weight: 700; color: var(--c-green, #3D7A5F); }
         .sct-divider { background: var(--c-bg-warm, #F5F3EF) !important; border-bottom: 1px solid var(--c-border, #ECEAE6); }
@@ -2372,9 +2258,9 @@ export default function AquiliniLeaseholdDashboard() {
         .gantt-total-row .gantt-timeline-col { position: relative; min-height: 48px; }
         .gantt-total-row .gantt-budget-col { display: flex; align-items: center; justify-content: flex-end; }
 
-        /* Pillar Badge */
-        .pillar-badge { display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 12px; font-size: 10px; font-weight: 600; }
-        .pillar-badge-sm { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 10px; font-size: 9px; font-weight: 600; }
+        /* Pillar Badge — de-pilled */
+        .pillar-badge { display: inline-flex; align-items: center; padding: 0; border-radius: 0; font-size: 10px; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; }
+        .pillar-badge-sm { display: inline-flex; align-items: center; padding: 0; border-radius: 0; font-size: 9px; font-weight: 600; letter-spacing: 0.5px; }
 
         /* Gantt Chart */
         .gantt-container { position: relative; }
@@ -2489,25 +2375,26 @@ export default function AquiliniLeaseholdDashboard() {
         /* Projections Tab */
         .projections-tab { display: flex; flex-direction: column; gap: 24px; }
         .projections-header-banner {
-          display: flex; align-items: center; gap: 16px; padding: 20px 24px;
-          background: linear-gradient(135deg, #F0F7F3 0%, #E8F0ED 100%);
-          border-radius: 14px; border: 1px solid #C5DBC9;
+          display: flex; align-items: center; gap: 16px; padding: 20px 0;
+          background: transparent;
+          border-radius: 0; border: none; border-top: 2px solid var(--c-green);
         }
-        .banner-icon { width: 48px; height: 48px; background: white; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #3D7A5F; box-shadow: 0 2px 8px rgba(61,122,95,0.2); }
+        .banner-icon { width: auto; height: auto; background: none; border-radius: 0; display: inline-flex; align-items: center; justify-content: center; color: #3D7A5F; box-shadow: none; }
         .banner-content { flex: 1; }
         .banner-content h3 { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; color: #1E1E2A; }
         .banner-content p { font-size: 12px; color: #7A7A85; margin-top: 2px; }
-        .banner-badge { display: flex; align-items: center; gap: 6px; padding: 8px 14px; background: white; border-radius: 8px; font-size: 11px; font-weight: 600; color: #7A7A85; border: 1px solid #C5DBC9; }
+        .banner-badge { display: flex; align-items: center; gap: 6px; padding: 0; background: none; border-radius: 0; font-size: 11px; font-weight: 600; color: var(--c-green); border: none; text-transform: uppercase; letter-spacing: 0.8px; }
 
         .projections-metrics-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-        .projection-metric-card { display: flex; align-items: center; gap: 14px; padding: 20px; background: #FDFCFA; border-radius: 12px; border: 1px solid #F0EBE4; transition: all 0.2s; }
-        .projection-metric-card:hover { border-color: #C9A96E; background: white; }
-        .metric-icon { width: 44px; height: 44px; background: linear-gradient(135deg, #C9A96E 0%, #B89A5E 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0; }
+        .projection-metric-card { display: flex; align-items: center; gap: 14px; padding: 20px 0; background: transparent; border-radius: 0; border: none; border-right: 1px solid var(--c-border-light); transition: all 0.2s; }
+        .projection-metric-card:last-child { border-right: none; }
+        .projection-metric-card:hover { background: var(--c-bg-warm); }
+        .metric-icon { width: auto; height: auto; background: none; border-radius: 0; display: inline-flex; align-items: center; justify-content: center; color: var(--c-gold); flex-shrink: 0; }
         .metric-content { display: flex; flex-direction: column; gap: 2px; }
         .metric-label { font-size: 11px; color: #7A7A85; text-transform: uppercase; letter-spacing: 0.5px; }
         .metric-value { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 700; color: #1E1E2A; }
-        .projection-metric-card.highlight { background: linear-gradient(135deg, #F0F7F3 0%, #E8F0ED 100%); border-color: #C5DBC9; }
-        .projection-metric-card.highlight .metric-icon { background: linear-gradient(135deg, #3D7A5F 0%, #2D6A4F 100%); }
+        .projection-metric-card.highlight { background: transparent; }
+        .projection-metric-card.highlight .metric-icon { color: var(--c-green); }
 
         /* Assumptions */
         .assumptions-card { padding: 0; }
@@ -2522,15 +2409,15 @@ export default function AquiliniLeaseholdDashboard() {
         .assumptions-section li:before { content: '•'; position: absolute; left: 0; color: #C9A96E; }
         .assumptions-section li:last-child { border-bottom: none; }
 
-        .projections-disclaimer { display: flex; gap: 16px; padding: 20px 24px; background: #FFF8E7; border-radius: 12px; border: 1px solid #E8DCC8; }
-        .disclaimer-icon { width: 40px; height: 40px; background: white; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #C9A96E; flex-shrink: 0; }
+        .projections-disclaimer { display: flex; gap: 16px; padding: 20px 0; background: transparent; border-radius: 0; border: none; border-top: 1px solid var(--c-border); }
+        .disclaimer-icon { width: auto; height: auto; background: none; border-radius: 0; display: inline-flex; align-items: center; justify-content: center; color: #C9A96E; flex-shrink: 0; }
         .disclaimer-content h4 { font-size: 13px; font-weight: 600; color: #1E1E2A; margin-bottom: 6px; }
         .disclaimer-content p { font-size: 12px; color: #7A7A85; line-height: 1.5; }
 
-        /* Problem Statement */
-        .problem-card { border-left: 4px solid #C9A96E; }
-        .problem-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 600; color: #1E1E2A; margin-bottom: 10px; }
-        .problem-card p { font-size: 13px; color: #7A7A85; line-height: 1.6; }
+        /* Problem Statement — editorial */
+        .problem-card { border-left: none; border-top: 1px solid var(--c-gold); padding-top: var(--s-6); }
+        .problem-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 600; color: #1E1E2A; margin-bottom: 12px; letter-spacing: -0.3px; }
+        .problem-card p { font-size: 13px; color: #7A7A85; line-height: 1.65; }
 
         /* Footer */
         .dashboard-footer { margin-top: 40px; padding: 20px 0; border-top: 1px solid rgba(30,30,42,0.08); display: flex; justify-content: space-between; align-items: center; }
@@ -2541,20 +2428,20 @@ export default function AquiliniLeaseholdDashboard() {
         .brand-lockup { display: flex; align-items: center; gap: var(--s-3); }
         .brand-wordmark { font-family: var(--font-body); font-size: 10px; font-weight: 600; letter-spacing: 2px; color: var(--c-text-secondary); text-transform: uppercase; }
 
-        /* Hero Card Variant */
-        .hero-card { border-left: 4px solid var(--c-gold); background: linear-gradient(135deg, var(--c-gold-light) 0%, var(--c-surface) 100%); position: relative; overflow: hidden; }
-        .hero-card::after { content: ''; position: absolute; top: 0; right: 0; width: 120px; height: 120px; background: radial-gradient(circle at top right, rgba(201,169,110,0.08) 0%, transparent 70%); pointer-events: none; }
+        /* Hero Card Variant — editorial, distinguished by type not boxes */
+        .hero-card { border-left: none; border-top: 1px solid var(--c-gold); background: transparent; position: relative; overflow: visible; padding-top: var(--s-8); }
+        .hero-card::after { display: none; }
 
         /* Scenario Comparison Strip */
         .scenario-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-4); margin-bottom: var(--s-6); }
-        .scenario-strip-item { background: var(--c-surface); border-radius: var(--r-md); padding: var(--s-5); border: 2px solid var(--c-border); cursor: pointer; transition: all var(--t-normal) var(--ease-out); position: relative; opacity: 0.6; }
+        .scenario-strip-item { background: var(--c-surface); border-radius: 2px; padding: var(--s-5); border: 2px solid var(--c-border); cursor: pointer; transition: all var(--t-normal) var(--ease-out); position: relative; opacity: 0.6; }
         .scenario-strip-item:hover { opacity: 0.85; border-color: var(--c-gold); box-shadow: var(--shadow-medium); }
         .scenario-strip-item.recommended:not(.active) { opacity: 0.7; border-color: var(--c-green); border-style: dashed; }
-        .scenario-strip-item.active { opacity: 1; border-color: var(--c-primary); border-style: solid; box-shadow: var(--shadow-elevated); transform: scale(1.03); z-index: 2; }
+        .scenario-strip-item.active { opacity: 1; border-color: var(--c-primary); border-style: solid; box-shadow: var(--shadow-medium); z-index: 2; }
         .scenario-strip-item.active.recommended { border-color: var(--c-green); background: linear-gradient(135deg, var(--c-green-light) 0%, var(--c-surface) 100%); box-shadow: 0 6px 24px rgba(61,122,95,0.18); }
-        .strip-rec-badge { display: flex; align-items: center; gap: 4px; position: absolute; top: 10px; right: 12px; font-size: 10px; font-weight: 600; color: #3D7A5F; }
+        .strip-rec-badge { display: flex; align-items: center; gap: 4px; position: absolute; top: 10px; right: 12px; font-size: 9px; font-weight: 600; color: #3D7A5F; letter-spacing: 1px; text-transform: uppercase; }
         .strip-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
-        .strip-letter { width: 28px; height: 28px; border-radius: 7px; display: flex; align-items: center; justify-content: center; color: white; font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 14px; flex-shrink: 0; }
+        .strip-letter { width: 28px; height: 28px; border-radius: 2px; display: flex; align-items: center; justify-content: center; color: white; font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 14px; flex-shrink: 0; }
         .strip-name { font-size: 14px; font-weight: 600; color: #1E1E2A; }
         .strip-total { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 700; margin-bottom: 12px; }
         .strip-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
@@ -2563,38 +2450,39 @@ export default function AquiliniLeaseholdDashboard() {
         .strip-metric label { font-size: 10px; color: #7A7A85; text-transform: uppercase; letter-spacing: 0.3px; }
 
         /* KPI Executive Summary Bar */
-        .kpi-bar { display: flex; align-items: center; justify-content: center; gap: 0; background: linear-gradient(135deg, var(--c-primary, #1E1E2A) 0%, var(--c-primary-light, #2E2E3A) 100%); border-radius: var(--r-lg, 18px); padding: 28px 40px; margin-bottom: 24px; }
+        .kpi-bar { display: flex; align-items: center; justify-content: center; gap: 0; background: linear-gradient(135deg, var(--c-primary, #1E1E2A) 0%, var(--c-primary-light, #2E2E3A) 100%); border-radius: 0; padding: 28px 40px; margin-bottom: 24px; }
         .kpi-item { flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2px; }
-        .kpi-value { font-family: var(--font-display, 'Cormorant Garamond', serif); font-size: 36px; font-weight: 700; color: var(--c-gold, #C9A96E); line-height: 1.1; font-variant-numeric: tabular-nums; }
+        .kpi-value { font-family: var(--font-display, 'Cormorant Garamond', serif); font-size: 40px; font-weight: 700; color: var(--c-gold, #C9A96E); line-height: 1.1; font-variant-numeric: tabular-nums; }
         .kpi-label { font-size: 13px; font-weight: 600; color: white; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
         .kpi-context { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 2px; }
         .kpi-divider { width: 1px; height: 56px; background: rgba(255,255,255,0.15); margin: 0 20px; flex-shrink: 0; }
 
         /* Key Metrics Row */
         .key-metrics-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-4); }
-        .key-metric-item { display: flex; align-items: center; gap: 14px; padding: 18px; background: #FDFCFA; border-radius: 12px; border: 1px solid #F0EBE4; transition: all 0.2s; }
-        .key-metric-item:hover { border-color: #C9A96E; background: white; }
-        .key-metric-icon { width: 42px; height: 42px; background: linear-gradient(135deg, #C9A96E 0%, #B89A5E 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0; }
+        .key-metric-item { display: flex; align-items: center; gap: 14px; padding: 18px 0; background: transparent; border-radius: 0; border: none; border-right: 1px solid var(--c-border-light); transition: all 0.2s; }
+        .key-metric-item:last-child { border-right: none; }
+        .key-metric-item:hover { background: var(--c-bg-warm); }
+        .key-metric-icon { width: auto; height: auto; background: none; border-radius: 0; display: inline-flex; align-items: center; justify-content: center; color: var(--c-gold); flex-shrink: 0; }
         .key-metric-content { display: flex; flex-direction: column; gap: 2px; }
         .key-metric-value { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 700; color: #1E1E2A; font-variant-numeric: tabular-nums; }
         .key-metric-label { font-size: 10px; color: #7A7A85; text-transform: uppercase; letter-spacing: 0.5px; }
 
         /* Horizontal Education Funnel */
         .education-funnel-horizontal { display: flex; align-items: center; justify-content: center; gap: 0; padding: var(--s-5) 0; }
-        .efh-node { flex: 1; text-align: center; padding: var(--s-5) var(--s-3); border-radius: var(--r-md); border: 1px solid var(--c-border); border-top-width: 3px; background: #FDFCFA; transition: all var(--t-normal) var(--ease-out); min-width: 0; }
-        .efh-node:hover { background: var(--c-surface); box-shadow: var(--shadow-medium); transform: translateY(-2px); }
-        .efh-icon { width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; }
+        .efh-node { flex: 1; text-align: center; padding: var(--s-5) var(--s-4); border-radius: 0; border: none; border-top: 2px solid var(--c-border); background: transparent; transition: all var(--t-normal) var(--ease-out); min-width: 0; }
+        .efh-node:hover { background: var(--c-bg-warm); }
+        .efh-icon { width: auto; height: auto; border-radius: 0; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; background: none !important; }
         .efh-value { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 700; margin-bottom: 4px; font-variant-numeric: tabular-nums; }
         .efh-name { font-size: 12px; font-weight: 600; color: #1E1E2A; margin-bottom: 2px; }
         .efh-subtitle { font-size: 10px; color: #7A7A85; }
         .efh-arrow { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 0 8px; color: #7A7A85; flex-shrink: 0; }
         .efh-conv-rate { font-size: 11px; font-weight: 600; color: #3D7A5F; white-space: nowrap; }
 
-        /* CTA Card */
-        .cta-card { border-left: 4px solid var(--c-gold); background: linear-gradient(135deg, var(--c-gold-light) 0%, var(--c-surface) 100%); margin-top: var(--s-8); position: relative; overflow: hidden; }
-        .cta-card::before { content: ''; position: absolute; top: -50%; right: -20%; width: 200px; height: 200px; background: radial-gradient(circle, rgba(201,169,110,0.06) 0%, transparent 70%); pointer-events: none; }
-        .cta-inner { display: flex; gap: var(--s-5); align-items: flex-start; }
-        .cta-icon { width: 48px; height: 48px; background: linear-gradient(135deg, var(--c-green), #2D6A4F); border-radius: var(--r-md); display: flex; align-items: center; justify-content: center; color: white; flex-shrink: 0; box-shadow: 0 4px 12px rgba(61,122,95,0.25); }
+        /* CTA Card — editorial */
+        .cta-card { border-left: none; border-top: 1px solid var(--c-gold); background: var(--c-bg-warm); margin-top: var(--s-8); position: relative; overflow: visible; padding-top: var(--s-8); }
+        .cta-card::before { display: none; }
+        .cta-inner { display: flex; gap: var(--s-4); align-items: flex-start; }
+        .cta-icon { width: auto; height: auto; background: none; border-radius: 0; display: inline-flex; align-items: center; justify-content: center; color: var(--c-green); flex-shrink: 0; box-shadow: none; margin-top: 2px; }
         .cta-content { flex: 1; }
         .cta-title { font-family: var(--font-display); font-size: 21px; font-weight: 600; color: var(--c-text); margin-bottom: var(--s-2); letter-spacing: -0.2px; }
         .cta-body { font-size: 14px; color: #4A4A5A; line-height: 1.65; margin-bottom: var(--s-3); }
@@ -2608,23 +2496,18 @@ export default function AquiliniLeaseholdDashboard() {
         .footer-agency { font-family: var(--font-body); font-size: 11px; font-weight: 600; letter-spacing: 1.8px; color: var(--c-text-secondary); text-transform: uppercase; }
         .footer-meta { display: flex; gap: var(--s-3); font-size: 11px; color: var(--c-text-secondary); letter-spacing: 0.3px; }
 
-        /* Card borders & depth (visual polish) */
-        .card { border: 1px solid var(--c-border); }
-        .card:hover { box-shadow: var(--shadow-medium); transform: translateY(-1px); }
-        .sidebar-card { border: 1px solid var(--c-border); transition: box-shadow var(--t-normal) var(--ease-out), transform var(--t-normal) var(--ease-out); }
-        .sidebar-card:hover { box-shadow: var(--shadow-medium); transform: translateY(-1px); }
-
-        /* Risk vs. Solution hover */
-        .rs-row:hover .rs-risk, .rs-row:hover .rs-solution { box-shadow: var(--shadow-subtle); }
+        /* Card borders & depth — flat, no hover lift */
+        .card:hover { box-shadow: none; transform: none; }
+        .sidebar-card:hover { box-shadow: none; transform: none; }
 
         /* Typography refinements */
         .card-subtitle, .pillar-desc, .phase-description, .cpa-combined-detail p, .edu-content-desc, .disclaimer-content p, .assumptions-section li { line-height: 1.55; }
         .sct-value-col, .strip-metric span, .key-metric-value, .efh-value, .scenario-card-total, .metric-value { font-variant-numeric: tabular-nums; }
         .section-subheader { font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 16px; color: #1E1E2A; margin-bottom: 14px; }
 
-        /* Scenario card recommended emphasis */
-        .scenario-card.recommended-card { transform: scale(1.03); z-index: 1; border-color: var(--c-green); background: linear-gradient(135deg, var(--c-green-light) 0%, var(--c-surface) 100%); }
-        .scenario-card:not(.recommended-card) { opacity: 0.92; }
+        /* Scenario card recommended emphasis — no scale, use border-top */
+        .scenario-card.recommended-card { transform: none; z-index: 1; border-color: var(--c-green); border-top: 2px solid var(--c-green); background: linear-gradient(135deg, var(--c-green-light) 0%, var(--c-surface) 100%); }
+        .scenario-card:not(.recommended-card) { opacity: 0.88; }
         .scenario-card:not(.recommended-card):hover { opacity: 1; }
 
         /* Custom scrollbar */
@@ -2646,8 +2529,8 @@ export default function AquiliniLeaseholdDashboard() {
           to { opacity: 1; transform: translateY(0); }
         }
         @keyframes cardReveal {
-          from { opacity: 0; transform: translateY(16px) scale(0.98); }
-          to { opacity: 1; transform: translateY(0) scale(1); }
+          from { opacity: 0; }
+          to { opacity: 1; }
         }
         @keyframes shimmerIn {
           from { opacity: 0; }
