@@ -1224,7 +1224,7 @@ const CreativeGallery = ({ creatives }) => {
       <div className="cg-preview-container">
         <div className="cg-preview-image">
           <img
-            src={active.image}
+            src={`${import.meta.env.BASE_URL}${active.image.replace(/^\//, '')}`}
             alt={`${active.name} — ${creatives.concept}`}
             loading="lazy"
           />
