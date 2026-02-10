@@ -619,7 +619,7 @@ const campaignData = {
   },
 
   creatives: {
-    agency: 'Monday Creative Inc.',
+    agency: 'Periphery Digital',
     concept: '"Never Say Never" Sponsored Ad Carousel',
     format: 'Meta Carousel Ad (4 Slides)',
     audiences: [
@@ -1196,7 +1196,7 @@ const CreativeGallery = ({ creatives }) => {
     <div className="creative-gallery">
       <div className="cg-header-row">
         <div className="cg-agency">
-          <span className="cg-agency-label">Creative Partner</span>
+          <span className="cg-agency-label">Creative Direction</span>
           <span className="cg-agency-name">{creatives.agency}</span>
         </div>
         <div className="cg-format-badge">
@@ -2275,7 +2275,7 @@ export default function AquiliniLeaseholdDashboard() {
         .gantt-legend .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #7A7A85; }
         .legend-bar { width: 20px; height: 10px; border-radius: 3px; }
 
-        .gantt-chart { border: 1px solid #E8E4DE; border-radius: 10px; overflow: hidden; background: white; }
+        .gantt-chart { border: 1px solid #E8E4DE; border-radius: 4px; overflow: visible; background: white; }
         .gantt-header { display: flex; background: #F9F7F4; border-bottom: 1px solid #E8E4DE; font-size: 11px; font-weight: 600; color: #7A7A85; }
         .gantt-label-col { width: 280px; flex-shrink: 0; padding: 12px 16px; border-right: 1px solid #E8E4DE; }
         .gantt-timeline-col { flex: 1; display: flex; }
@@ -2310,7 +2310,7 @@ export default function AquiliniLeaseholdDashboard() {
         .combined-bar-label { font-size: 11px; font-weight: 700; color: white; text-shadow: 0 1px 3px rgba(0,0,0,0.3); }
 
         .platform-tooltip {
-          position: absolute; top: calc(100% + 8px); background: #1E1E2A; color: #FAFAFA;
+          position: absolute; bottom: calc(100% + 8px); background: #1E1E2A; color: #FAFAFA;
           padding: 12px 14px; border-radius: 8px; font-size: 11px; z-index: 100; min-width: 200px;
           box-shadow: 0 4px 16px rgba(0,0,0,0.25); animation: tooltipFade 0.2s ease; pointer-events: none;
         }
@@ -2333,8 +2333,8 @@ export default function AquiliniLeaseholdDashboard() {
         .bar-label { font-size: 10px; font-weight: 600; color: white; text-shadow: 0 1px 2px rgba(0,0,0,0.2); }
         .campaign-row .gantt-budget-col { font-size: 12px; color: #7A7A85; display: flex; align-items: center; justify-content: flex-end; }
 
-        .campaign-tooltip { position: absolute; top: calc(100% + 8px); background: var(--c-primary); color: var(--c-bg); padding: var(--s-3) var(--s-4); border-radius: var(--r-sm); font-size: 11px; z-index: 100; min-width: 220px; box-shadow: var(--shadow-dramatic); animation: tooltipFade 0.2s var(--ease-out); pointer-events: none; backdrop-filter: blur(4px); }
-        @keyframes tooltipFade { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+        .campaign-tooltip { position: absolute; bottom: calc(100% + 8px); background: var(--c-primary); color: var(--c-bg); padding: var(--s-3) var(--s-4); border-radius: var(--r-sm); font-size: 11px; z-index: 100; min-width: 220px; box-shadow: var(--shadow-dramatic); animation: tooltipFade 0.2s var(--ease-out); pointer-events: none; backdrop-filter: blur(4px); }
+        @keyframes tooltipFade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
         .tooltip-header { font-weight: 600; font-size: 12px; margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 6px; }
         .tooltip-row { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 4px; }
         .tooltip-row span:first-child { color: rgba(255,255,255,0.6); }
@@ -2639,25 +2639,33 @@ export default function AquiliniLeaseholdDashboard() {
           .hero-card::after, .cta-card::before { display: none; }
         }
 
-        /* === Readability Pass === */
-        .dashboard { font-size: 15px; }
+        /* === Readability Pass (Round 2 — enlarged) === */
+        .dashboard { font-size: 16px; }
         .card-subtitle, .pillar-desc, .rs-risk-detail, .rs-solution-detail,
         .edu-content-desc, .campaign-format, .disclaimer-content p,
         .cpa-methodology-content p, .pillar-tactics li, .cpa-combined-detail p,
         .rs-goal, .cg-slide-desc, .tpv-note-item, .is-reel-desc,
-        .detail-panel-body .detail-text, .assumptions-section li { font-size: 14px; line-height: 1.6; }
+        .detail-panel-body .detail-text, .assumptions-section li { font-size: 15px; line-height: 1.6; }
 
         .scm-label, .donut-label, .phase-dates, .audience-label,
         .pillar-detail-label, .cpa-source-tag, .cpa-size-label,
         .edu-content-phase, .tpv-badge, .metric-label, .key-metric-label,
         .efh-subtitle, .detail-label, .pillar-badge, .efh-name,
-        .pillar-phase, .is-reel-phase { font-size: 11px; }
+        .pillar-phase, .is-reel-phase { font-size: 12px; }
 
-        .scenario-rec-badge, .sct-rec, .is-reel-project-badge { font-size: 10px; }
+        .scenario-rec-badge, .sct-rec, .is-reel-project-badge { font-size: 11px; }
 
-        .nav-tab { font-size: 14px; }
-        .cta-body { font-size: 15px; line-height: 1.7; }
-        .problem-card p { line-height: 1.7; }
+        .nav-tab { font-size: 15px; }
+        .cta-body { font-size: 16px; line-height: 1.7; }
+        .problem-card p { font-size: 15px; line-height: 1.7; }
+        .card-title { font-size: 28px; }
+        .header-text h1 { font-size: 30px; }
+        .campaign-detail-name { font-size: 14px; }
+        .gantt-header, .gantt-legend { font-size: 12px; }
+        .scenario-card-title h4 { font-size: 17px; }
+        .scm-value { font-size: 15px; }
+        .campaign-tooltip, .platform-tooltip { font-size: 12px; }
+        .tooltip-header { font-size: 13px; }
       `}</style>
 
       {/* Header */}
@@ -2890,7 +2898,7 @@ export default function AquiliniLeaseholdDashboard() {
                 <div className="card-header">
                   <div>
                     <h2 className="card-title">Creative Preview — "{data.creatives.concept.split('"')[1]}"</h2>
-                    <p className="card-subtitle">Sponsored carousel ad concepts by {data.creatives.agency} — 3 audience-specific variations</p>
+                    <p className="card-subtitle">Sponsored carousel ad concepts — 3 audience-specific variations</p>
                   </div>
                 </div>
                 <CreativeGallery creatives={data.creatives} />
